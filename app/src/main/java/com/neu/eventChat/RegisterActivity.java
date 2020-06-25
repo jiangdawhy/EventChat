@@ -67,7 +67,7 @@ public class RegisterActivity extends AppCompatActivity {
                     Map<String, String> hashMap = new HashMap<>();
                     hashMap.put("id", userid);
                     hashMap.put("username",username);
-                    hashMap.put("imageURL", "default");cd ..
+                    hashMap.put("imageURL", "default");
 
                     reference.setValue(hashMap).addOnCompleteListener(new OnCompleteListener<Void>() {
                         @Override

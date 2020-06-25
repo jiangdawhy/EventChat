@@ -64,7 +64,5 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
-    private void login(String txt_email, String txt_password) {
 
-    }
 }
